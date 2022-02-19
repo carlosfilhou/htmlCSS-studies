@@ -1,0 +1,167 @@
+html{
+
+}
+body{
+	font-family: arial, helvetica, sans-serif;
+	font-style: italic;	
+	font-size: 17px;
+	text-align: center;
+	margin: 0;
+}
+form{
+	display: inline-block;
+	margin: auto;
+}
+.header{
+	background: #5c57a4;
+	margin: auto;
+	width: 94%;
+	padding: 15px;
+	font-size: 18px;
+	overflow: hidden;
+}
+.logo{
+	color: white;
+	float: left;
+	text-decoration: none;
+}
+.menu{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-left: 25px;
+}
+@media screen and (max-width: 500px){
+	.header{
+		background: gray;	
+	}
+}
+h2{
+	color:rgba(50, 10, 100, 0.6);
+}
+ul{
+	list-style-position: inside;
+	margin-right: 50px;
+}
+ol{
+	list-style-position: inside;
+	margin-right: 50px;
+}
+li{
+	display: block;
+}
+table{
+	margin: auto;
+}
+.centro{
+	margin: auto;
+}
+#over{
+	color:  red;
+	background-color: blue;
+	width: 300px;
+	height: 100px;
+	overflow: auto;
+	margin: auto;
+}
+.links{
+	text-decoration: none;
+	color: darkred;
+	padding: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border: 2px solid darkred;
+	border-radius: 8px;
+}
+.links:hover{
+	color: white;
+	background: darkred;
+}
+.links:active{
+	border: none;
+}
+#texto_azul{
+	color: blue;
+}
+#paragrafo_principal{
+	color:#000000;
+	background: url(Imagens/bg1.JPG) center/cover no-repeat ;
+}
+.texto_marrom{
+	color: brown;
+}
+.fonte{
+	font-size: 2rem;
+}
+.container{
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin: auto;
+}
+.dentro_do_container{
+	width: 50%;
+	height: 50%;
+	background: blue;
+}
+.container_automatico{
+	width: 20vh;
+	height: 20vw;
+	background: green;
+	margin: auto;
+}
+#cm{
+	background: blue;
+	width: 1cm;
+	height: 1cm;
+	margin: auto;
+}
+#mm{
+	background: red;
+	width: 1mm;
+	height: 1mm;
+	margin: auto;
+}
+.in{
+	background: blue;
+	width: 1in;
+	height: 1in;
+	margin: auto;
+	box-sizing: border-box;
+}
+#px{
+	background: red;
+	width: 10px;
+	height: 10px;
+	margin: auto;
+}
+#pt{
+	background: blue;
+	width: 10pt;
+	height: 10pt;
+	margin: auto;
+}
+#pc{
+	background: red;
+	width: 1pc;
+	height: 1pc;
+	margin: auto;
+}
+#base{
+	background: brown;
+	padding: 20px;
+	margin: 50px;
+}
+.borda{
+	border: 5px solid red;
+	padding: 10px;
+}
+.circulo{
+	background: purple;
+	border-radius: 55%;
+}
+

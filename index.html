@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+
+<!--Aqui está o nome da página e atributos-->
+
+  		<title>Minha Página</title>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--Aqui está o CSS modificando parágrafos-->
+
+  		<style>
+  			th{
+  				color: blue;
+  			}
+  		</style>
+
+<!--Aqui está a ancora para o arquivo .CSS-->
+
+  		<link href="style.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+<!--Aqui COMEÇA O CORPO DA PÁGINA-->
+
+		<div class="header">
+			<div>
+				<a class="logo" href="index.html">Logo Título</a>
+			</div>
+
+			<ul class="menu" > 	
+				<li class="menu">Tabela</li>
+				<li class="menu">Sobre mim</li>
+				<a href="mailto:carlosfilho.canal@icloud.com">
+					<li class="menu">Email</li>
+				</a>
+			</ul>	
+		</div>	
+
+<!--Aqui está a linha que decreta início do site-->	
+	<br><br>
+
+	<hr>
+
+	<br>
+
+		<a class="links" href="#itens_importantes">Itens Importantes</a>
+  			
+  		<h2>Exemplos de texto</h2>
+
+  		<b><p id="paragrafo_principal">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."</p></b>
+
+<!--tipos de texto-->
+
+  		<p class="texto_marrom"> Esse é um <strong class="texto_marrom"> texto em negrito e relevante</strong></p>
+
+  		<p class="texto_marrom"> Esse é um <em class="texto_marrom"> texto em itálico e relevante</em></p>
+
+  		<p class="fonte"> Esse é um <mark> texto com marcação</mark> e tamanho de fonte alterada</p>
+
+  		<p> Esse é um <small> texto com a tag small</small></p>
+
+<!--textos em azul-->
+  		
+  		<div id="texto_azul">
+	  		
+	  		<p> Esse é um <del>texto que foi removido</del> e substituído por esse</p>
+
+	  		<p> Esse é um <ins>texto que foi inserido</ins></p>
+
+	  		<p> Esse é um <sub>texto que foi subscrito</sub> ou <sup>sobre-escrito</sup></p>
+
+	  	</div>	
+
+	<br>
+
+<!--Aqui está o link e a imagem do site-->
+
+  		<a class="links" href="sobre.html">Sobre Mim</a>
+
+  	<br><br>
+  	
+  		<a href="https://d1ralsognjng37.cloudfront.net/72186801-7b15-4253-bf20-f9a0b365b15a.jpeg">
+
+  			<img src="imagens/charles cookies.png" alt="Charles Cookies" width="350">
+
+  		</a>	
+  		
+  	<br>
+
+<!--Aqui está a lista de Compras-->
+
+		<h3>Lista de Compras</h3>
+		
+		<ul>
+			<li>Açucar</li>
+			<li>Ovo</li>
+			<li>Farinha</li>
+			<li>Manteiga</li>
+		</ul>
+		
+<!--Aqui está os itens mais imortantes-->
+
+		<h3 id="itens_importantes">Itens Mais Importantes</h3>
+		
+		<ol>	
+			<li>Açucar</li>
+			<li>Manteiga</li>
+			<li>farinha</li>
+			<li>ovo</li>
+		</ol>
+
+<!--Aqui está a tabela-->
+
+		<table>
+			<tr>
+				<th>Nome</th>
+				<th>Telefone</th>
+				<th>Email</th>
+			</tr>
+			<tr>	
+				<td>Carlos</td>
+				<td>48984579550</td>
+				<td>Carlosfilho.canal@gmail.com</td>
+			</tr>
+			<tr>
+				<td>Fulano</td>
+				<td>00000000</td>
+				<td>xxxxx@gmail.com</td>	
+			</tr>
+		</table>
+
+	<br><br>
+
+<!--Aqui está o link do email-->
+
+		<a class="links" href="mailto:carlosfilho.canal@icloud.com">Enviar Email</a>
+
+	<br><br>
+	
+<!--Aqui estão as unidades de medidas-->
+	
+	<h3>Unidades de Medidas:</h3>
+
+		<div id="cm"></div>
+
+	<br>
+
+		<div id="mm"></div>
+
+	<br>
+
+		<div class="in"></div>
+
+	<br>
+
+		<div id="px"></div>
+
+	<br>
+
+		<div id="pt"></div>
+
+	<br>
+
+		<div id="pc"></div>
+
+	<br>
+
+<!--Aqui está o container-->
+
+		<div class="container">
+			<div class="dentro_do_container">
+			</div>	
+		</div>
+
+	<br>
+
+<!--Aqui está o container automático-->
+
+		<div class="container_automatico">
+		</div>
+
+<!--Aqui está a base marrom MARGIN E PADDING-->
+
+	<div id="base"></div>
+
+<!--Aqui está a nossa BORDA-->
+
+	<div class="borda">
+		Conteúdo da Borda
+	</div>
+
+<br>
+
+<!--Aqui está nosso circulo-->
+
+	<div class="container circulo">
+	</div>
+
+<br>
+
+<!--Aqui está nossa borda respeitada-->
+
+	<div class="in borda">
+		Conteúdo
+	</div>
+
+	<div class="in">
+		
+	</div>
+
+<br>
+
+<!--Aqui está o overflow-->
+
+	<div id="over">
+		<img src="imagens/bg1.jpg">
+	</div>
+
+<br><br>
+
+	<form method="GET" action="#">
+		<select name="estado">
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="SP">São Paulo</option>
+			<option value="BH">Belo Horizonte</option>
+			<input type="submit">
+		</select>
+	</form>	
+
+	<form method="GET" action="#">
+		<select name="estado" size="4">
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="SP">São Paulo</option>
+			<option value="BH">Belo Horizonte</option>
+			<input type="submit">
+		</select>
+	</form>
+
+	<form method="GET" action="#">
+		<select name="estado" size="4" multiple>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="SP">São Paulo</option>
+			<option value="BH">Belo Horizonte</option>
+			<input type="submit">
+		</select>
+	</form>
+
+<br><br><br><br>
+
+<form method="GET">	
+	Formulário<br>
+	<input  type="text" name="assunto"><br>
+	
+	<textarea style="margin-left: 45px;" name="mensagem" ></textarea>
+	
+	<input type="submit">
+</form>
+
+<br><br><br><br>
+
+  </body>
+</html>
